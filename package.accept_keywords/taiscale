@@ -1,0 +1,4 @@
+# package.accept_keywords# required by tailscale (argument)
+=net-vpn/tailscale-1.50.1 ~amd64
+
+
