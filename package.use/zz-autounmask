@@ -1,0 +1,20 @@
+# package.use# required by www-client/firefox-115.6.0::gentoo[system-libvpx]
+# required by www-client/firefox (argument)
+>=media-libs/libvpx-1.13.1-r1 postproc
+# required by app-emulation/virt-manager-4.1.0::gentoo[gui,-test]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.42-r3 usbredir
+# required by app-emulation/libvirt-9.4.0-r4::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
+# required by app-emulation/virt-manager (argument)
+>=net-dns/dnsmasq-2.89-r1 script
+# required by app-crypt/swtpm-0.8.1-r2::gentoo
+# required by app-emulation/libvirt-9.4.0-r4::gentoo[qemu]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
+# required by app-emulation/virt-manager (argument)
+>=net-libs/gnutls-3.8.0 tools pkcs11
+# required by net-misc/nextcloud-client-3.9.4::gentoo
+# required by nextcloud-client (argument)
+>=dev-libs/qtkeychain-0.14.1-r1 qt5
