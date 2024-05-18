@@ -18,3 +18,16 @@
 # required by net-misc/nextcloud-client-3.9.4::gentoo
 # required by nextcloud-client (argument)
 >=dev-libs/qtkeychain-0.14.1-r1 qt5
+# required by www-client/chromium-120.0.6099.129::gentoo
+# required by www-client/chromium (argument)
+>=sys-libs/zlib-1.3-r2 minizip
+# required by www-client/chromium-120.0.6099.129::gentoo
+# required by www-client/chromium (argument)
+>=net-libs/nodejs-20.6.1 inspector
+# required by sys-kernel/gentoo-kernel-bin-6.6.13::gentoo[initramfs]
+# required by @selected
+# required by @world (argument)
+>=sys-kernel/installkernel-18 dracut
+# required by sys-boot/os-prober-1.81::gentoo
+# required by sys-boot/os-prober (argument)
+>=sys-boot/grub-2.12-r1 mount
