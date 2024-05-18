@@ -1,2 +1,2 @@
-media-video/pipewire sound-server
+media-video/pipewire sound-server echo-cancel extra ffmpeg
 
